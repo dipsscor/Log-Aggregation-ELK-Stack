@@ -56,11 +56,11 @@ services:
 configs:
 
   elastic_config:
-    file: ./ELKStack/ELKStack/ELKStack/ELKStack/elasticsearch/config/elasticsearch.yml
+    file: ./ELKStack/elasticsearch/config/elasticsearch.yml
   logstash_config:
-    file: ./ELKStack/ELKStack/ELKStack/logstash/config/logstash.yml
+    file: ./ELKStack/logstash/config/logstash.yml
   logstash_pipeline:
-    file: ./ELKStack/ELKStack/logstash/pipeline/logstash.conf
+    file: ./ELKStack/logstash/pipeline/logstash.conf
   kibana_config:
     file: ./ELKStack/kibana/config/kibana.yml
 
