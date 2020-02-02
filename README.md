@@ -50,6 +50,8 @@ Elastic search is installed using docker-compose and available at:
     
         http://localhost:9200/
         
+        
+        
 ## Logstash:
 Logstash is installed using docker-compose and available at:
     
@@ -83,8 +85,12 @@ Logstash is installed using docker-compose and available at:
     http://localhost:5601/
     
     
+Username: elastic
+password: changeme
+    
+    
    ### Kibana elastic index configure:
-    1. Create an index pattern like "logstash-YYYY.MM.DD-HHMMSS" in kibana index creation with all attributes
+    1. Create an index pattern like "logstash-2020.02.02-000001" in kibana index creation.
     2. View logs in discover.
     
  

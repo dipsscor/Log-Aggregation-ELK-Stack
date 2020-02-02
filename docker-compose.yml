@@ -82,6 +82,18 @@ services:
       - elk
     depends_on:
       - elasticsearch
+      
+      
+      
+  filebeat:
+    image: docker.elastic.co/beats/filebeat:7.5.0
+    volumes:
+      - ./FileBeats/filebeat.yml:/usr/share/filebeat/filebeat.yml
+    restart: on-failure
+    networks:
+      - elk
+    depends_on:
+      - logstash
 
 networks:
   elk:
