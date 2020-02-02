@@ -1,6 +1,6 @@
-# Log Aggregation for Spring boot application using ELK Stack and Log4j(Without beats)
+# Log Aggregation for Spring boot application using ELK Stack , Beats and Log4j
 
-Sample Springboot Application demonstrating Log Aggregation using ELK Stack and Log4j. This demonstration does not include log forwarding using Beats.
+Sample Springboot Application demonstrating Log Aggregation using ELK Stack and Log4j. This demonstration does  include log forwarding using Beats.
 
 License : [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
